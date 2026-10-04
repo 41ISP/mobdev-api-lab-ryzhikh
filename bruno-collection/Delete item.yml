@@ -1,0 +1,18 @@
+info:
+  name: Delete item
+  type: http
+  seq: 8
+
+http:
+  method: DELETE
+  url: https://api.kitek-pg.ru/api/marketplace/items/1791105859675
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE3OTExMDUyNTEwNTYsInVzZXJuYW1lIjoidGVzdHVzZXJfcnl6aGlraCIsImlhdCI6MTc5MTEwNTMzNSwiZXhwIjoxNzkxMTkxNzM1fQ.ZKYItSD371BhEtZbQKCA3wAGuGiZI-F9ijVal-ZTaAY
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

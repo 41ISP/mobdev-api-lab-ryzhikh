@@ -1,0 +1,24 @@
+info:
+  name: Create bid
+  type: http
+  seq: 9
+
+http:
+  method: POST
+  url: https://api.kitek-pg.ru/api/marketplace/items/1790765755964/bids
+  body:
+    type: json
+    data: |-
+      {
+           "amount": 85000
+         }
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE3OTExMDUyNTEwNTYsInVzZXJuYW1lIjoidGVzdHVzZXJfcnl6aGlraCIsImlhdCI6MTc5MTEwNTMzNSwiZXhwIjoxNzkxMTkxNzM1fQ.ZKYItSD371BhEtZbQKCA3wAGuGiZI-F9ijVal-ZTaAY
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
