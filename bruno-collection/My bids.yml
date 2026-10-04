@@ -1,0 +1,18 @@
+info:
+  name: My bids
+  type: http
+  seq: 10
+
+http:
+  method: GET
+  url: https://api.kitek-pg.ru/api/marketplace/bids/my
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE3OTExMDUyNTEwNTYsInVzZXJuYW1lIjoidGVzdHVzZXJfcnl6aGlraCIsImlhdCI6MTc5MTEwNTMzNSwiZXhwIjoxNzkxMTkxNzM1fQ.ZKYItSD371BhEtZbQKCA3wAGuGiZI-F9ijVal-ZTaAY
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
